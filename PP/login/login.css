@@ -1,0 +1,58 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f2f2e9;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    background-color: #143F6B;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 20vw;
+    height: 55vh;
+}
+
+.divInput {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 15px;
+    gap: 3vh;
+}
+#email, #senha{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #1A759F;
+    color: rgb(0, 0, 0);
+    outline: none;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #1A759F;
+    border: none;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    cursor: pointer;
+}
+.texto{
+    margin-top: 9vh;
+}
+
+p {
+    font-size: 14px;
+}
+
+a {
+    color: lightblue;
+}

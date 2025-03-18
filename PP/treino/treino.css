@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2e9;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.header {
+    background-color: #143F6B;
+    color: white;
+    padding: 20px;
+}
+
+.progress-container {
+    text-align: left;
+    padding: 10px;
+    color: white;
+}
+
+.progress-bar {
+    width: 20%; /* Representando 5 de 30 dias */
+    height: 5px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.planoDeTreino {
+    padding: 20px;
+}
+
+.exercicio {
+    background-color: #1A759F;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.exercicio_info {
+    text-align: left;
+}
+
+.workout-item img {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+.start-button {
+    width: 90%;
+    max-width: 300px;
+    padding: 15px;
+    background-color: #143F6B;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}

@@ -1,0 +1,62 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f2f2e9;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    background-color: #143F6B;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 20vw;
+    height: 45vh;
+}
+
+.divInput {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 15px;
+    gap: 3vh;
+}
+input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #1A759F;
+    color: white;
+    outline: none;
+}
+
+.password-group {
+    position: relative;
+}
+
+#togglePasswordRegister {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: lightgreen;
+    cursor: pointer;
+}
+#btCadastrar {
+    width: 10vw;
+    padding: 10px;
+    background-color: #1A759F;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
